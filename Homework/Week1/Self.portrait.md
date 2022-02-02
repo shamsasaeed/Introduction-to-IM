@@ -8,4 +8,4 @@ This is my homework, and I have used:
 
 ![face](https://github.com/shamsasaeed/ssa8778/blob/main/face.png)
 
-It was my first time using code in p5.js but I have very proud of what I have created. I started off with the shape shape because I needed to create a base before adding the features which included eyes, nose, mouth, and hair. I used colors that matched myself and it was fun to pick out the shade that I thought had the most resemblence.
+It was my first time using coding in the website p5.js, but I am very proud of what I have created. I started off with the face shape because I needed to create a base before adding the features. This included the eyes, nose, mouth, and hair. I used colors that matched myself and it was very fun to pick out the shade which I thought had the most resemblence.
