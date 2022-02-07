@@ -10,7 +10,7 @@ loops that needed several adjustments until I got the final pattern I wanted, an
 
 The link above shows the live version of my code, you can see the waves splashing into the shore and the white color which represents the waves.
 
-![beach](https://octodex.github.com/images/minion.png)
+![beach](https://github.com/shamsasaeed/ssa8778/blob/main/beach.png)
 
 
 
