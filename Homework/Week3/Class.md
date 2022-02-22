@@ -5,6 +5,6 @@ The overal concept of my art work is based on my day dreaming. I zone out pretty
 
 Some problems that I ran into while doing my code was using the arrays appropraitly, I had to adjust my code several times to finally see no error. The mistakes I made are pretty minimal, however it definitely took some time for me to fix all of them. 
 
-[click me to see the live coding](https://editor.p5js.org/shamsasaeed/sketches/hZ_qv11Jb)
+[click me to see the live coding](https://editor.p5js.org/shamsasaeed/sketches/hZ_qv11Jb).
 
 ![stars](https://github.com/shamsasaeed/ssa8778/blob/main/stars.png)
