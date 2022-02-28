@@ -4,5 +4,6 @@ For my game, I wanted to make a ghost game, where the player has to click as man
 
 [click me to see the live coding](https://editor.p5js.org/shamsasaeed/sketches/VN5l-CsVM).
 
+After further working on the code, I have managed to fix my mistakes, however the only issue I am still facing is the ghosts, which are still not appearing for me. Also added additional comments for more clarification.
 
-
+[click me to see the NEW live coding](https://editor.p5js.org/shamsasaeed/sketches/VN5l-CsVM).
