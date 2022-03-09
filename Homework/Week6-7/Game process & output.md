@@ -95,12 +95,12 @@ new. And if my fixing didn't work out I'd try another solution then another one 
 ![final code 4](https://github.com/shamsasaeed/ssa8778/blob/main/final%20code%204.png)
 
 
-# Link to game:
+# Link to Game:
 
 [click me to play Ghost Buster!](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS)
 
 
-# Refrences:
+# References:
 
 The only reference I used was for the timer, which was from this link [timer](https://editor.p5js.org/marynotari/sketches/S1T2ZTMp-)
 
