@@ -85,7 +85,7 @@ new. And if my fixing didn't work out I'd try another solution then another one 
 
 # Final result:
 
-[click me to see the live coding](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS).
+[click me to play!](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS).
 
 ![stars](https://github.com/shamsasaeed/ssa8778/blob/main/stars.png)
 
