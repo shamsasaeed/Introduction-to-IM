@@ -100,7 +100,7 @@ new. And if my fixing didn't work out I'd try another solution then another one 
 [click me to play Ghost Buster!](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS)
 
 
-# References:
+# Reference:
 
 The only reference I used was for the timer, which was from this link [timer](https://editor.p5js.org/marynotari/sketches/S1T2ZTMp-)
 
