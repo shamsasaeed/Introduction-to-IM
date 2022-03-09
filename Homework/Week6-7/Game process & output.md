@@ -83,9 +83,20 @@ better. Also mentioning that even though I came accross many hardships and error
 new. And if my fixing didn't work out I'd try another solution then another one until the code turn out perfect and I get the final output I was waiting for.
 
 
-# Final result:
+# Final result Code:
 
-[click me to play!](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS).
 
-![stars](https://github.com/shamsasaeed/ssa8778/blob/main/stars.png)
+# Final result output:
+
+![final show 1](https://github.com/shamsasaeed/ssa8778/blob/main/stars.png)
+
+![final show 2](https://github.com/shamsasaeed/ssa8778/blob/main/stars.png)
+
+
+
+
+# Link to game:
+
+[click me to play Ghost Buster!](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS)
+
 
