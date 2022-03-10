@@ -74,7 +74,8 @@ mouse pressed function which took quite some time, but it was worth it when it w
 
 In conclusion, I really enjoyed this experience. I never thought I would create a game, especially in coding, and seeing my ideas come to life makes it 10X 
 better. Also mentioning that even though I came accross many hardships and errors, I had fun with playing around to fix my mistakes and trying out something 
-new. And if my fixing didn't work out I'd try another solution then another one until the code turn out perfect and I get the final output I was waiting for.
+new. And if my fixing didn't work out I'd try another solution then another one until the code turn out perfect and I get the final output I was waiting for. Alaso, I didn't add a win or lose sign and did only a timer instead because I wanted the player to keep playing and compete the amount of points to try anf get 
+higher points.
 
 
 # Final result output:
