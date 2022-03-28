@@ -5,5 +5,6 @@ For my game, I wanted to make a ghost game, where the player has to click as man
 
 [click me to see the live switch](https://youtu.be/9EYlnAEVBiE).
 
-After further working on the code, I have managed to fix my mistakes, however the only issue I am still facing is the ghosts, which are still not appearing for me. Also added additional comments for more clarification.
+![stars](https://github.com/shamsasaeed/ssa8778/blob/main/stars.png)
+
 
