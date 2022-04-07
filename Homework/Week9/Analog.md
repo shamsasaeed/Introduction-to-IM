@@ -12,6 +12,6 @@ For my analog switch, I decided to stick to the theme of blinking and use a red 
 
 
 ![switch1](https://github.com/shamsasaeed/ssa8778/blob/main/switch1-min.png)
-![switch2](https://github.com/shamsasaeed/ssa8778/blob/main/switch.png)
-![switch3](https://github.com/shamsasaeed/ssa8778/blob/main/switch.png)
-![switch4](https://github.com/shamsasaeed/ssa8778/blob/main/switch.png)
+![switch2](https://github.com/shamsasaeed/ssa8778/blob/main/switch2-min.png)
+![switch3](https://github.com/shamsasaeed/ssa8778/blob/main/switch3-min.png)
+![switch4](https://github.com/shamsasaeed/ssa8778/blob/main/switch4-min.png)
