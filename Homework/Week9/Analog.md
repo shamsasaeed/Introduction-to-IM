@@ -8,7 +8,7 @@ For my digital switch I decided to use the morse code using a [ youtube video](h
 
 For my analog switch, I decided to stick to the theme of blinking and use a red light bulb to show a sign of signaling. For this I used the photoresistor with the example of the arduino analog Input posted on github. I modified the code by adding the blinking effect to make it look creative with a flash warning kind of effect. For the analog switch I started doing the code and attachment of the wires in tinkercad, this saved a lot of time for me since when I started putting the circuit together, I didn't get any error and the light bulb worked perfectly. I found it difficult to make the blinking effect in the coding in the beginning because it was not blinking as I wanted to, but with a few adjustments, I managed to create the blinking that I wanted. The analog was a bit easier for me because I took a lot of time on the digital that I feel like the practice gave me the skills to compleet the analog at a easier and faster rate.
 
-[click me to see the live digital and analog switch demo](https://youtu.be/9EYlnAEVBiE).
+[click me to see the live digital and analog switch demo](https://youtu.be/bGnY_ugI6aQ).
 
 
 ![switch1](https://github.com/shamsasaeed/ssa8778/blob/main/switch.png)
