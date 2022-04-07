@@ -15,6 +15,7 @@ Even though i encountered some difficulties with this assignment, I really enjoy
 # Video 
 [click me to see the live digital and analog switch demo](https://youtu.be/bGnY_ugI6aQ).
 
+# Images
 
 ![switch1](https://github.com/shamsasaeed/ssa8778/blob/main/switch1-min.png)
 ![switch2](https://github.com/shamsasaeed/ssa8778/blob/main/switch2-min.png)
