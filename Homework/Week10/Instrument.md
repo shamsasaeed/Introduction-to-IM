@@ -21,7 +21,7 @@ Overall, even though it took a lot of time and effort into this instrument it wa
 
 ## Video 
 
-[click me to see the instrument demo](https://youtube.com/shorts/-wdzY0l-vOg?feature=share).
+[CLICK ME TO SEE INSTRUMENT DEMO](https://youtube.com/shorts/-wdzY0l-vOg?feature=share).
 
 ## Images
 
