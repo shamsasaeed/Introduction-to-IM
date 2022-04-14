@@ -18,6 +18,10 @@ Overall, even though it took a lot of time and effort into this instrument it wa
 
 ## CODE
 
+![Instrumentcode](https://github.com/shamsasaeed/ssa8778/blob/main/inst%20code.png)
+
+![Instrumentcode2](https://github.com/shamsasaeed/ssa8778/blob/main/inst%20code%202.png)
+
 
 ## Video 
 
@@ -26,7 +30,10 @@ Overall, even though it took a lot of time and effort into this instrument it wa
 ## Images
 
 ![Instrument1](https://github.com/shamsasaeed/ssa8778/blob/main/1%20instrument.jpg)
+
 ![Instrument2](https://github.com/shamsasaeed/ssa8778/blob/main/2%20instrument.jpg)
+
 ![Instrument3](https://github.com/shamsasaeed/ssa8778/blob/main/2%20instrument.jpg)
+
 ![Instrument4](https://github.com/shamsasaeed/ssa8778/blob/main/4%20instrument.jpg)
 
