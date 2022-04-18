@@ -6,19 +6,21 @@ The first exercise included making something that uses only one sensor on arduin
 
 For the third exercise, we had to do it at home with a partner. I didn't have a partner when we worked the professor told us to work on this later on, so I did it by myself, with a but of help from a classmate. In the beginning, it was very useful that the professor has provided us with a sample code on p5. that we had to add on. I twisted the code a bit to get the desired outcome. Then, for the arduino board I didn't have to change anything really because I already saved the wires with the LED, and the two potentiometer sensors from last class which saved me a lot of time and tiny errors I would've gotten which I was happy about. I then went in with the Arduino code and set up the LED input and the sensor Input and put up an If else statement. After all these steps, I tested it out, and it worked! It was so cool to see the LED light up each time the ball bounced. It was also cool to use the potentiometer sensor to shift the ball on the direction I wanted as the ball was landing from above. It didn't work on the first try however, this is because in the arduino code I forgot the print statement which I didn't realize was important until then when I realized, I added it, and it worked after I fixed it.
 
-## Statement
-
-To conclude, I really enjoyed these mini class exercises, it really helped me to practice my coding skills and in hardware, especially with arduino and p5 merged together, after each exercise it became easier and easier to work with the both of them. But of course, with each exercise I did face some difficulties that I managed to overcome with some help from my partner and my classmate, and of course, my professor. Learning from my own mistakes helped me to make sure I got what I did wrong so i would not repeat it in the future, this made it a process of learning and advancing from what I started with.
-
 ## CODE
 
-![Instrumentcode2](https://github.com/shamsasaeed/ssa8778/blob/main/inst%20code%202.png)
+![p5 1](https://github.com/shamsasaeed/ssa8778/blob/main/p5%201.png)
 
+![p5 2](https://github.com/shamsasaeed/ssa8778/blob/main/p5%202.png)
+
+![p5 3](https://github.com/shamsasaeed/ssa8778/blob/main/p5%203.png)
+
+![arduino](https://github.com/shamsasaeed/ssa8778/blob/main/arduino.png)
 
 ## Video 
 
 [CLICK ME TO SEE EXERCISE 3 DEMO](https://youtube.com/shorts/KhBdLnQScjs?feature=share)
 
-## Images
+## Statement
 
-![Instrument1](https://github.com/shamsasaeed/ssa8778/blob/main/1%20instrument.jpg)
+To conclude, I really enjoyed these mini class exercises, it really helped me to practice my coding skills and in hardware, especially with arduino and p5 merged together, after each exercise it became easier and easier to work with the both of them. But of course, with each exercise I did face some difficulties that I managed to overcome with some help from my partner and my classmate, and of course, my professor. Learning from my own mistakes helped me to make sure I got what I did wrong so i would not repeat it in the future, this made it a process of learning and advancing from what I started with. Even though these exercising seem small, they are really time consuming, not in a bad way, but it really made me think about how to code with the arduino and p5 as I worked closely with it, I encountered some error, but errors could always be fixed, even though I needed a bit of help, interacting and collaborating with others helped my communicative skills as I would brainstorm with the other individual to find a solution and we would help one another.
+
