@@ -17,7 +17,7 @@ To conclude, I really enjoyed these mini class exercises, it really helped me to
 
 ## Video 
 
-[CLICK ME TO SEE INSTRUMENT DEMO](https://youtube.com/shorts/-wdzY0l-vOg?feature=share)
+[CLICK ME TO SEE EXERCISE 3 DEMO](https://youtube.com/shorts/KhBdLnQScjs?feature=share)
 
 ## Images
 
