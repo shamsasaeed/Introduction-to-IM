@@ -36,18 +36,15 @@ In conclusion, me and my partner would have never dreamed of creating something 
 
 # Final result output:
 
-![final show 1](https://github.com/shamsasaeed/ssa8778/blob/main/final%20show%201.png)
+![final show 1](not yet added
 
 
 
 # Final result Code:
 
-![final code 1](https://github.com/shamsasaeed/ssa8778/blob/main/final%20code%201.png)
-
-
-# Link to Game:
-
-[click me](https://editor.p5js.org/shamsasaeed/sketches/K_1UqYEQS)
+![final code 1](not yet added)
 
 
 # References
+
+not yet added
