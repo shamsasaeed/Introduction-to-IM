@@ -76,7 +76,7 @@ We then created a print.ln for both of them by stating that is isPressed is true
  
 # Final Code for P5:
 
-![Final Code](https://editor.p5js.org/shamsasaeed/sketches/VDBsDVftM)
+[Final Code](https://editor.p5js.org/shamsasaeed/sketches/VDBsDVftM)
 
 ## Code explanation: P5.js 
  
@@ -163,9 +163,9 @@ In conclusion, me and my partner would have never dreamed of creating something 
 ![Arduino5](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%205.png) 
 
 # Refrences 
-![Bool](https://www.arduino.cc/reference/en/language/variables/constants/constants/g) 
-![ArduinoXP5](https://medium.com/@yyyyyyyuan/tutorial-serial-communication-with-arduino-and-p5-js-cd39b3ac10ce) 
-![Random](https://forum.arduino.cc/t/random-led-blink-code-check/106834) 
-![Millis](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573) 
-![Aaron](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl) 
+[Bool](https://www.arduino.cc/reference/en/language/variables/constants/constants/g) 
+[ArduinoXP5](https://medium.com/@yyyyyyyuan/tutorial-serial-communication-with-arduino-and-p5-js-cd39b3ac10ce) 
+[Random](https://forum.arduino.cc/t/random-led-blink-code-check/106834) 
+[Millis](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573) 
+[Aaron](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl) 
 
