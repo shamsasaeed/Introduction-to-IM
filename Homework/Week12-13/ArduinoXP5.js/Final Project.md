@@ -68,7 +68,7 @@ Then we coded a code that was similar for when a point would get deducted. We st
         wrongPress = true;
       }
  
-We then created a print.ln for both of them by stating that is isPressed is true then serial will print yes and if wrongPressed is true then serial will print no. The season we did that was for then to use this for writing out the code for the points in P5. Finally we created the else if statement which says that if the button is turned off then the game would restart (part of this code is also written in p5) and that if it's turned off then the LEDs will be back to HIGH (turned on).
+We then created a print.ln for both of them by stating that is isPressed is true then serial will print yes and if wrongPressed is true then serial will print no. The season we did that was for then to use this for writing out the code for the points in P5. Finally we created the else if statement which says that if the button is turned off then the game would restart (part of this code is also written in p5) and that if it's turned off then the LEDs will be back to HIGH (turned on). 
 
 # Coding process of testing force sensor:
 
