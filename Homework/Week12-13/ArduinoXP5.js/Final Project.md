@@ -33,6 +33,13 @@ Once we had our circuit working, we started working with the rest of the Arduino
 
 We have faced many hardships during the coding process. The first issue was that we had countless errors that said that the port was not connected to the Arduino which we had to adjust multiple times, through finding the correct port and connecting it. Moreover, our sensors did not work, the hardwiring was correct, however, the code itself was not working. Through asking for help from the Professor, we were able to connect the sensors to the LED, and create a point system in which when the LED was low and the sensor was pressed, the player would get a point. We checked if the sensors were working through serial monitoring and checking the numbers. We utilized 0s and 1s to monitor this. If the sensor was pressed and a 1 was printed, we were able to see that it works. 
  
+## Arduino Board Process
+
+![process](https://github.com/shamsasaeed/ssa8778/blob/main/process%20board.jpg)
+
+![process2](https://github.com/shamsasaeed/ssa8778/blob/main/process%20board%202.jpg)
+
+
 ## Code explanation:ARDUINO 
  
 In the beginning of the code we first created variables for the button pin (the switch on the board), the five LEDs (LEDs on the board), the five sensors (sensors on the board), the score (will be shown in P5), the timer (will be shown in P5), millis (used for when the force sensors are pressed), random number (used for making random number equal to millis) , button state (to identify the starting of the game) , and pre button state (to identify what would happen before the button is switched). After that in th set-up, in order to time when the LED would be LOW and the sensor must be pressed, we utilized millis, which was set up as the following: 
@@ -62,6 +69,10 @@ Then we coded a code that was similar for when a point would get deducted. We st
       }
  
 We then created a print.ln for both of them by stating that is isPressed is true then serial will print yes and if wrongPressed is true then serial will print no. The season we did that was for then to use this for writing out the code for the points in P5. Finally we created the else if statement which says that if the button is turned off then the game would restart (part of this code is also written in p5) and that if it's turned off then the LEDs will be back to HIGH (turned on).
+
+# Coding process of testing force sensor:
+
+![testing](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%20code.jpg)
  
 # Final Code for P5:
 
@@ -108,305 +119,53 @@ For the function draw, we just wrote what we wanted to display, this part wasnt 
    
 ## Soldering Process: 
 
-Initially, we wanted to solder the game for a cleaner final product. However, we faced many hardships during this process. When soldering, some wires were loose and because of this, a short circuit was created as the loose wires were touching other wires. This was brought to our attention as when we went to connect the arduino to the laptop and run the code, the light on the arduino would not turn on. We tried multiple techniques to fix this, such as restarting the laptop, however, it did not work. Moreover, we soon came to discover that the positive and negatives (Ground and 5V) were connected together. We learned what connection it was using a multimeter from professor Aaron's advice. After detecting this, we tried to fix the issue by re-soldered the wires until there was no longer a short circuit. When re-connected the laptop, the arduino turned on, however, only one LED (out of the 5) was HIGH. This proved that the LED connections were not soldered properly 
-and there was a mistake in the soldering. We tried to fix most of the LEDs but because they weren't soldered very precisely they did not respond to the code very well. We were very annoyed because we have worked on the soldering for two days and it took a lot of time and effort. But we at least, had a chance to practice soldering and knowing how to use it properly since our soldering at the bottom of the solering was pretty good. Due to lack of time, we decided not to present out the soldered board in the final showcase and present our regular breadboard connection, which worked out in our favor, as the game was fully functioning with no errors. 
+Initially, we wanted to solder the game for a cleaner final product. However, we faced many hardships during this process. When soldering, some wires were loose and because of this, a short circuit was created as the loose wires were touching other wires. This was brought to our attention as when we went to connect the arduino to the laptop and run the code, the light on the arduino would not turn on. We tried multiple techniques to fix this, such as restarting the laptop, however, it did not work. Moreover, we soon came to discover that the positive and negatives (Ground and 5V) were connected together. We learned what connection it was using a multimeter from professor Aaron's advice. After detecting this, we tried to fix the issue by re-soldered the wires until there was no longer a short circuit. When re-connected the laptop, the arduino turned on, however, only one LED (out of the 5) was HIGH. This proved that the LED connections were not soldered properly, and there was a mistake in the soldering. We tried to fix most of the LEDs but because they weren't soldered very precisely they did not respond to the code very well. We were very annoyed because we have worked on the soldering for two days and it took a lot of time and effort. But we at least, had a chance to practice soldering and knowing how to use it properly since our soldering at the bottom of the solering was pretty good. Due to lack of time, we decided not to present out the soldered board in the final showcase and present our regular breadboard connection, which worked out in our favor, as the game was fully functioning with no errors. 
+
+![solder](https://github.com/shamsasaeed/ssa8778/blob/main/solder.jpg) 
+![solder2](https://github.com/shamsasaeed/ssa8778/blob/main/solder%202.jpg) 
+![solder2](https://github.com/shamsasaeed/ssa8778/blob/main/solder%203.jpg) 
 
 # Design: 
 
 As the game concept was surrounded around a picnic, we decided to place the game on a picnic basket on fake grass, in order to mimic a picnic. As for the ants, we made them out of hot glue, and painted them with black acrylic paint, and stuck googly eyes on them. We also hot-glued flowers and filled the basket with bubble wrap for a fuller effect. On top of the bubble wrap, we round placed white design papers and then placed the Arduino board on top, and placed the Arduino on the grass and tried to hide it. We also used long wires to cover up teh wires which looked nice. We then made and printed out a green sign that said 'FLASHING BUGS' and glued it to a stick, which was placed in the basket. We also made a sign which reads "PRESS THE BUG SPRAY WHEN THE ANTS LIGHT UP!" and placed that in front of the breadboard. We really liked the design and got many compliments on it which made us proud.
 
+![design1](https://github.com/shamsasaeed/ssa8778/blob/main/design.jpg) 
+![design2](https://github.com/shamsasaeed/ssa8778/blob/main/design%202.jpg) 
+![design3](https://github.com/shamsasaeed/ssa8778/blob/main/design%203.jpg) 
+
 # Conclusion:
 
 In conclusion, me and my partner would have never dreamed of creating something like this on our own. The building, the soldering, the coding, the entire process was a big challenge that we overcame. Although we experienced many errors and struggles, we managed to get beyond them all and create a beautiful output that was worked very hard on. There are many things we would have liked to change or implement if we had more time, such as fixing the soldering for the final design, or adding a sound effect when the ants are being squished. However, we are bith very proud for how far we've come since starting the final, and we've learned more than we could have anticipated through this journey. 
 
+![conclusion1](https://github.com/shamsasaeed/ssa8778/blob/main/conclusion.jpg) 
+![conclusion2](https://github.com/shamsasaeed/ssa8778/blob/main/conclusion%202.jpg) 
+![conclusion3](https://github.com/shamsasaeed/ssa8778/blob/main/conclusion%203.jpg) 
+![conclusion4](https://github.com/shamsasaeed/ssa8778/blob/main/conclusion%204.jpg) 
+![conclusion5](https://github.com/shamsasaeed/ssa8778/blob/main/conclusion%205.jpg) 
 
-![design1](https://github.com/hindahhmed/IntroToIM/blob/main/images/IM%20FINAL/IMG_3708.HEIC) 
-
-
-# Final result output:
+# Final Result Game DEMO:
 
 [CLICK ME TO SEE GAME DEMO IN CLASS SHOW](https://youtube.com/shorts/vgvi5tsESYs?feature=share)
 
-# CODES 
+# CODE: P5.js
 
-# P5.js
+![P51](https://github.com/shamsasaeed/ssa8778/blob/main/p5%201.png) 
+![P52](https://github.com/shamsasaeed/ssa8778/blob/main/p5%202.png) 
+![P53](https://github.com/shamsasaeed/ssa8778/blob/main/p5%203.png) 
+![P54](https://github.com/shamsasaeed/ssa8778/blob/main/p5%204.png) 
 
-let picnicImg;
-let winImg;
-let loseImg;
-let font, music;
-let force;
-let timer = 30; // time limit for game
-let score = 0;
-let gameState = 0;
-function keyPressed() {
-  if (key == " ") {
-    // important to have in order to start the serial connection!!
-    setUpSerial();
-  }
-}
+# CODE: Arduino
 
-function doubleClicked() {
-  if (gameState==2|| gameState==3) {
-    gameState=1;
-  }
-}
+![Arduino1](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%201.png) 
+![Arduino2](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%202.png) 
+![Arduino3](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%203.png) 
+![Arduino4](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%204.png) 
+![Arduino5](https://github.com/shamsasaeed/ssa8778/blob/main/arduino%205.png) 
 
-function readSerial(data) {
-  //READ FROM ARDUINO HERE
-  if (data == "yes" || data == "no" || data == "start game" || data == "end game"){
-    print(data)
-  }
-  if (data == "yes" && gameState == 1) {
-    score++;
-  } else if (data == "no" && gameState == 1) {
-    score--;
-  } else if (data == "start game") {
-    gameState = 1;
-  } else if (data == "end game") {
-    resetGame();
-    gameState = 0;
-  }
-}
-
-function preload() {
-  picnicImg = loadImage("assets/picnic.jpeg");
-  loseImg = loadImage("assets/lose.jpg");
-  winImg = loadImage("assets/win.jpg");
-  music = loadSound("assets/picnicmusic.mp3");
-  font = loadFont("assets/BebasNeue-Regular.ttf");
-}
-function setup() {
-  createCanvas(600, 600);
-}
-function draw() {
-  if (gameState == 1 || gameState == 0) {
-   
-    background(220);
-    image(picnicImg, 0, 0, 600, 600);
-    if (!music.isPlaying()) {
-      music.play();
-    }
-    textFont(font);
-    fill(255, 255, 255);
-    textSize(100);
-    textFont(font); // text font and size display
-    fill("white"); // time and color text white
-    text("score :" + score, width / 47, height / 2); // points display
-    textSize(25);
-    text("timer :" + timer, 255, 380); // time display
-  }
-  if (gameState == 1) {
-    if (frameCount % 60 == 0 && timer > 0) {
-      timer--;
-    } // timer set
-
-    if (timer == 0) {
-    if (score <= 0) {
-      gameState = 2;
-    }
-      else {
-        gameState = 3;
-      }
-      resetGame();
-    
-     
-    } // if timer became 0 then game would reset
-  }
- 
-  if (gameState == 2) {
-    image(loseImg, 0, 0, 600, 600);
-    textFont(font);
-    fill(255, 255, 255);
-    textSize(50);
-    fill("white"); // time and color text white
-    text("YOU LOSE! DOUBLECLICK TO RESTART :" + score, width / 47, height / 2);
-   
-  }
- 
-   if (gameState == 3) {
-    image(winImg, 0, 0, 600, 600);
-    textFont(font);
-    fill(255, 255, 255);
-    textSize(50);
-    fill("white"); // time and color text white
-    text("YOU WIN! DOUBLE CLICK TO RESTART :" + score, width / 47, height / 2);
-   
-  }
-}
-
-function resetGame() {
-  timer = 30; // when game resets time goes back to 5 seconds
-  score = 0; // when game resets poiints goes back to 0
-}
-
-
-# ARDUINO 
-
-const int buttonPin = 12;     // Pushbutton pin number
-const int ledPin1 =  5;      // LED pin number1
-const int ledPin2 =  6;      // LED pin number2
-const int ledPin3 =  7;      // LED pin number3
-const int ledPin4 =  8;      // LED pin number4
-const int ledPin5 =  9;      // LED pin number5
-const int forcePin1 = A3;    // Force pin number1
-const int forcePin2 = A0;    // Force pin number2
-const int forcePin3 = A2;    // Force pin number3
-const int forcePin4 = A1;    // Force pin number4
-const int forcePin5 = A4;    // Force pin number5
-int  ranNum;
-int  ranDel;
-int startMillis;
-int currentMillis;
-int score = 0;
-int timer = 0;
-
-
-// variables declare:
-int buttonState = 0;         // pushbutton state variable
-int preButtonState;
-
-void setup() {
-
-  startMillis = millis();  //initial start time
-  currentMillis = startMillis;
-  ranNum = currentMillis;
-  Serial.begin(9600);
-
-  // LED pin output:
-  pinMode(ledPin1, OUTPUT);
-  // pushbutton pin input:
-  pinMode(buttonPin, INPUT);
-
-  pinMode(ledPin2, OUTPUT);
-  // pushbutton pin input:
-  pinMode(buttonPin, INPUT);
-
-  pinMode(ledPin3, OUTPUT);
-  // pushbutton pin input:
-  pinMode(buttonPin, INPUT);
-
-  pinMode(ledPin4, OUTPUT);
-  // pushbutton pin input:
-  pinMode(buttonPin, INPUT);
-
-  pinMode(ledPin5, OUTPUT);
-  // pushbutton pin input:
-  pinMode(buttonPin, INPUT);
-  preButtonState = digitalRead(buttonPin);
-}
-
-void loop() {
-
-  // pushbutton value state
-  buttonState = digitalRead(buttonPin);
-
-  digitalWrite(ledPin1, HIGH);
-  digitalWrite(ledPin2, HIGH);
-  digitalWrite(ledPin3, HIGH);
-  digitalWrite(ledPin4, HIGH);
-  digitalWrite(ledPin5, HIGH);
-
-  //  if pushbutton is pressed then thebuttonState is HIGH:
-  if (buttonState == HIGH) {
-    if (preButtonState == LOW) {
-      Serial.println("start game");
-      preButtonState = HIGH;
-    }
-    bool isPressed = false;
-    bool wrongPress = false;
-    startMillis = millis();
-    currentMillis = startMillis;
-    //  Serial.println(score);
-    int randomChoice = random(1, 6);
-
-    while (currentMillis - startMillis < 2000) {
-
-      // do this for each led
-      if (randomChoice == 1) {
-        digitalWrite(ledPin4, LOW);
-        if (analogRead(forcePin4) > 500) {
-          isPressed = true;
-        }
-
-      }
-      if (randomChoice == 2) {
-        digitalWrite(ledPin2, LOW);
-        if (analogRead(forcePin2) > 500) {
-          isPressed = true;
-        }
-
-      }
-      if (randomChoice == 3) {
-        digitalWrite(ledPin3, LOW);
-        if (analogRead(forcePin3) > 500) {
-          isPressed = true;
-        }
-      }
-      if (randomChoice == 4) {
-        digitalWrite(ledPin4, LOW);
-        if (analogRead(forcePin4) > 500) {
-          isPressed = true;
-        }
-      }
-
-      if (randomChoice == 5) {
-        digitalWrite(ledPin5, LOW);
-        if (analogRead(forcePin5) > 500) {
-          isPressed = true;
-        }
-      }
-
-      currentMillis = millis();
-
-
-      if (randomChoice == 2 && (analogRead(forcePin1) > 500 || analogRead(forcePin3) > 500) || analogRead(forcePin4) > 500 || analogRead(forcePin5) > 500) {
-        wrongPress = true;
-      }
-
-      if (randomChoice == 1 && (analogRead(forcePin2) > 500 || analogRead(forcePin3) > 500) || analogRead(forcePin4) > 500 || analogRead(forcePin5) > 500) {
-        wrongPress = true;
-      }
-
-      if (randomChoice == 3 && (analogRead(forcePin1) > 500 || analogRead(forcePin2) > 500) || analogRead(forcePin4) > 500 || analogRead(forcePin5) > 500) {
-        wrongPress = true;
-      }
-
-      if (randomChoice == 4 && (analogRead(forcePin1) > 500 || analogRead(forcePin3) > 500) || analogRead(forcePin2) > 500 || analogRead(forcePin5) > 500) {
-        wrongPress = true;
-      }
-
-      if (randomChoice == 5 && (analogRead(forcePin1) > 500 || analogRead(forcePin3) > 500) || analogRead(forcePin4) > 500 || analogRead(forcePin2) > 500) {
-        wrongPress = true;
-      }
-    }
-
-    if (isPressed == true) {
-      Serial.println("yes");
-
-    } else if (wrongPress == true) {
-      Serial.println("no");
-    }
-
-  }
- 
-  else {
-    if (preButtonState == HIGH) {
-      Serial.println("end game");
-      preButtonState = LOW;
-    }
-    // LED ON:
-    digitalWrite(ledPin1, HIGH);
-    digitalWrite(ledPin2, HIGH);
-    digitalWrite(ledPin3, HIGH);
-    digitalWrite(ledPin4, HIGH);
-    digitalWrite(ledPin5, HIGH);
-    score = 0;
-  }
-
-  // Serial send to p5
-
-
-
-}
+# Refrences 
+![Bool](https://www.arduino.cc/reference/en/language/variables/constants/constants/g) 
+![ArduinoXP5](https://medium.com/@yyyyyyyuan/tutorial-serial-communication-with-arduino-and-p5-js-cd39b3ac10ce) 
+![Random](https://forum.arduino.cc/t/random-led-blink-code-check/106834) 
+![Millis](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573) 
+![Aaron](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl) 
 
